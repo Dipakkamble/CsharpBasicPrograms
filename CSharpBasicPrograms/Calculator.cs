@@ -26,6 +26,23 @@ namespace CSharpBasicPrograms
             sum = first + second;
             Console.WriteLine("sum=" +sum);
         }
+        public void Subtraction()
+        {
+            sum = Math.Abs(first - second); // it will not print negative value because math.abs
+            Console.WriteLine("diff=" +sum);
 
+        }
+        public void Multiplication()
+        {
+            sum = first * second;
+            Console.WriteLine("multi=" +sum);
+
+        }
+        public void Division()
+        {
+            sum = first/second; 
+            Console.WriteLine("divi=" +sum);
+
+        }
     }
 }
